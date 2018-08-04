@@ -1,0 +1,37 @@
+
+
+#grid{
+  display: grid;
+  grid-template-columns: 150px 1fr;
+}
+#grid #content1{
+  padding:25px;
+}
+h1{
+  font-size: 45px;
+  text-align: center;
+  background-color:powderblue;
+margin: 0;
+padding: 20px;
+border-bottom: 2px black solid;
+}
+
+#grid ol{
+  border-right:2px solid black;
+  margin:0;
+  width:100px;
+padding:20px;
+}
+li{
+  padding:20px;
+
+}
+li:hover{
+  padding:20px;
+  color : black;
+
+}
+
+body{
+  margin:0;
+}
